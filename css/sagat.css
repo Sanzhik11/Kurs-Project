@@ -1,0 +1,124 @@
+@import url('https://fonts.cdnfonts.com/css/futura-pt');
+
+*{
+    margin: 0;
+}
+body{
+    background-color: rgb(215, 213, 218);
+}
+
+.viled-1{
+    font-family: 'Futura PT', sans-serif;
+}
+body{
+    height: 100%;
+}
+.sagat-logo{
+    display: flex;
+    width: 100%;
+    height: 30px;
+    position: fixed;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgba(255, 254, 254, 0.179);
+}
+.sagat-select{
+    width: 100px;
+    margin-right: 300px;
+    background-color: rgb(0, 0, 0);
+    color: yellow;
+    top: 10px;
+}
+.poisk{
+    width: 50px;
+    height: 20px;
+}
+.sagat-nav{
+    display: grid;
+    height: auto;
+    grid-area: 2 / 5;
+    grid-template-columns: 300px 300px 300px;
+}
+.sagat-menu{
+    width: 100px;
+    display: flex;
+}
+
+.sagat-m{
+    display: flex;
+}
+
+.muzhskie{
+    display: flex;
+    padding: 30px;
+
+}
+.muzh{
+    color: rgb(255, 0, 0);
+
+}
+.zhenskie{
+    padding-left: 50px;
+    color: rgb(0, 0, 0);
+}
+.sagat-section{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    z-index: -1;
+    margin-top: 100px;
+}
+a{
+    text-decoration: none;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: silver;
+    width: 100%;
+}
+.sagat-icon{
+    width: 28px;
+    height: 28px;
+    display: flex;
+    z-index: 5;
+    position: fixed;
+    top: 1px;
+}
+.sagaticon{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+@media(min-width: 1025px){
+    .sagat-nav{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+}
+}
+@media(max-width: 1024px){
+    .sagat-nav{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
+@media(max-width: 768px){
+    .sagat-nav{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
+@media(max-width: 480px){
+    .sagat-nav{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
+@media(max-width: 320px){
+    .sagat-nav{
+        display: grid;
+        grid-template-columns: 1fr;
+}
+}
